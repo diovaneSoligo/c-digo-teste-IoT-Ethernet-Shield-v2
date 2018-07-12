@@ -1,17 +1,17 @@
 //Código de simulação da Tomada inteligente versão 2
 //para testar diretamente no arduino
-//LINK DE ACESSO |||| RESULTADO
-//  192.168.0.30:1000              |||| IoT By Diovane Soligo (string)
-//  192.168.0.30:1000/voltagem     |||| 220 (voltagem exemplo) (int)
-//  192.168.0.30:1000/corrente     |||| 10.5 (corrente exemplo) (float)
-//  192.168.0.30:1000/potencia     |||| 865.20 (watts exemplo) (float)
-//  192.168.0.30:1000/umidade      |||| 77 (% vindo do sensor DHT11) (int)
-//  192.168.0.30:1000/temperatura  |||| 12 (ºC vindo do sensor DHT11) (int)
-//  192.168.0.30:1000/ligar        |||| liga o rele de carga, "liga led" (void)
-//  192.168.0.30:1000/desligar     |||| desliga o rele de carga, "desliga led" (void)
-//  192.168.0.30:1000/status       |||| on se o rele estiver ligado ou off se desligado (string)
-//  192.168.0.30:1000/hello        |||| OKDSV2ENCPH@NTOM?DSV2?30 (identificador da tomada, PREFIXO ? VERSÃO DE CONTROLE ? ID "ÚNICO" DO DISPOSITIVO PARA CADASTRO) (array[])
-//  192.168.0.30:1000/"outro link" |||| 404?Ops! ERRO :( (array[] string)
+//LINK DE ACESSO |||| RESULTADO desntro das aspas ""
+//  192.168.0.30:1000              |||| "IoT By Diovane Soligo" - (string)
+//  192.168.0.30:1000/voltagem     |||| "220" - (voltagem exemplo) (int)
+//  192.168.0.30:1000/corrente     |||| "10.5" - (corrente exemplo) (float)
+//  192.168.0.30:1000/potencia     |||| "865.20" - (watts exemplo) (float)
+//  192.168.0.30:1000/umidade      |||| "77" - (% vindo do sensor DHT11) (int)
+//  192.168.0.30:1000/temperatura  |||| "12" - (ºC vindo do sensor DHT11) (int)
+//  192.168.0.30:1000/ligar        |||| liga o rele de carga, liga led (void)
+//  192.168.0.30:1000/desligar     |||| desliga o rele de carga, desliga led (void)
+//  192.168.0.30:1000/status       |||| "on" se o rele estiver ligado ou "off" se desligado (string)
+//  192.168.0.30:1000/hello        |||| "OKDSV2ENCPH@NTOM?DSV2?30" - (identificador da tomada, PREFIXO ? VERSÃO DE CONTROLE ? ID "ÚNICO" DO DISPOSITIVO PARA CADASTRO) (array[])
+//  192.168.0.30:1000/"outro link" |||| "404?Ops! ERRO :(" - (array[] string)
 
 #include <SPI.h>
 #include <Ethernet_v2.h>//utilizado o ethernet shield v2 italiano
