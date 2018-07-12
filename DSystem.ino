@@ -1,6 +1,6 @@
 //Código de simulação da Tomada inteligente versão 2
 //para testar diretamente no arduino
-//LINK DE ACESSO |||| RESULTADO desntro das aspas ""
+//LINK DE ACESSO |||| RESULTADO dentro das aspas ""
 //  192.168.0.30:1000              |||| "IoT By Diovane Soligo" - (string)
 //  192.168.0.30:1000/voltagem     |||| "220" - (voltagem exemplo) (int)
 //  192.168.0.30:1000/corrente     |||| "10.5" - (corrente exemplo) (float)
