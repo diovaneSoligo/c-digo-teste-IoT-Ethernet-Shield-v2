@@ -67,8 +67,8 @@ void loop() {
           client.println();
           int posicao = 5;
           boolean X = true;
-          while (X == true) {//pega o comando recebido
-            if (linha.substring(posicao, posicao + 1) == " ") {
+          while (X) {
+            if (linha.substring(posicao, posicao + 1) == " ") {//pega o comando recebido
               X = false;
             }
             posicao++;
